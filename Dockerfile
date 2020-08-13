@@ -28,6 +28,4 @@ WORKDIR /
 
 CMD ["/run.sh"]
 
-VOLUME ["~/.musicoin"]
-
 EXPOSE 8545
