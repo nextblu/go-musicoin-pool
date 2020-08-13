@@ -3,6 +3,7 @@ FROM alpine:3.12.0
 ENV GOPATH /home/go
 
 RUN apk --update add -ut build-deps \
+    linux-headers \
     go \
     git \
     g++ \
